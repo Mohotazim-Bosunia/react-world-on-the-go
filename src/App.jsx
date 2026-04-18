@@ -15,7 +15,7 @@ function App() {
 
   return (
     <>
-      <h1 className='counter'>Vite + React</h1>
+      
       <Suspense fallback={<p>Loading info...</p>}>
        <Countries promiseCountries={promiseCountries}></Countries>
       </Suspense>
